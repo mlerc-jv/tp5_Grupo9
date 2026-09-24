@@ -19,21 +19,21 @@ public class CollectionCliente {
         ClienteMayorista cliente1 = new ClienteMayorista(
                 "Gomez",
                 "Juan",
-                "3884000000",
+                "Belgrano 123",
                 1001
         );
 
         ClienteMayorista cliente2 = new ClienteMayorista(
                 "Lopez",
                 "Carlos",
-                "3884111111",
+                "Lamadrid 230",
                 1002
         );
 
         ClienteMinorista cliente3 = new ClienteMinorista(
                 "Maidana",
                 "Ana",
-                "3884222222",
+                "Lavalle 103",
                 30123456,
                 "PAMI"
         );
@@ -41,7 +41,7 @@ public class CollectionCliente {
         ClienteMinorista cliente4 = new ClienteMinorista(
                 "Perez",
                 "Maria",
-                "3884333333",
+                "Independencia 423",
                 31234567,
                 "OSDE"
         );

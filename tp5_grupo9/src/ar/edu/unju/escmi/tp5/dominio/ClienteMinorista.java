@@ -5,8 +5,8 @@ public class ClienteMinorista extends Cliente {
     private Integer dni;
     private String obraSocial;
 
-    public ClienteMinorista(String apellido, String nombre, String telefono, Integer dni, String obraSocial) {
-        super(apellido, nombre, telefono);
+    public ClienteMinorista(String apellido, String nombre, String direccion, Integer dni, String obraSocial) {
+        super(apellido, nombre, direccion);
         this.dni = dni;
         this.obraSocial = obraSocial;
     }
