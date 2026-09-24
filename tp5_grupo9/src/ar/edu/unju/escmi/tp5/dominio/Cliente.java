@@ -4,12 +4,12 @@ public abstract class Cliente {
 
     private String apellido;
     private String nombre;
-    private String telefono;
+    private String direccion;
 
-    public Cliente(String apellido, String nombre, String telefono) {
+    public Cliente(String apellido, String nombre, String direccion) {
         this.apellido = apellido;
         this.nombre = nombre;
-        this.telefono = telefono;
+        this.direccion = direccion;
     }
 
     public String getApellido() {
@@ -28,18 +28,18 @@ public abstract class Cliente {
         this.nombre = nombre;
     }
 
-    public String getTelefono() {
-        return telefono;
+    public String getDireccion() {
+        return direccion;
     }
 
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
 
     @Override
     public String toString() {
         return "Apellido: " + apellido
                 + ", Nombre: " + nombre
-                + ", Telefono: " + telefono;
+                + ", Direccion: " + direccion;
     }
 }

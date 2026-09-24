@@ -4,8 +4,8 @@ public class ClienteMayorista extends Cliente {
 
     private Integer codigo;
 
-    public ClienteMayorista(String apellido, String nombre, String telefono, Integer codigo) {
-        super(apellido, nombre, telefono);
+    public ClienteMayorista(String apellido, String nombre, String direccion, Integer codigo) {
+        super(apellido, nombre, direccion);
         this.codigo = codigo;
     }
 
