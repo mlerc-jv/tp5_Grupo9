@@ -4,7 +4,7 @@ package ar.edu.unju.escmi.tp5.dominio;
 public class StockInsuficienteException extends Exception {
 
     public StockInsuficienteException(Producto producto, int pedido, int disponible) {
-        super("Stock insuficiente de '" + producto.getNombre() + "': se pidieron "
+                super("Stock insuficiente de '" + producto.getDescripcion() + "': se pidieron "
                 + pedido + " y hay " + disponible);
     }
 }
