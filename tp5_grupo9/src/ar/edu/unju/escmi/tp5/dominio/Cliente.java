@@ -35,6 +35,8 @@ public abstract class Cliente {
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
+    
+    public abstract double getDescuento();
 
     @Override
     public String toString() {
