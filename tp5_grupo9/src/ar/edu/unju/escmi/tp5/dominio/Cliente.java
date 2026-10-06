@@ -35,6 +35,8 @@ public abstract class Cliente {
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
+    
+    public abstract double getDescuento();
 
     @Override
     public String toString() {

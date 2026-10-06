@@ -16,8 +16,11 @@ public class ClienteMayorista extends Cliente {
     public void setCodigo(Integer codigo) {
         this.codigo = codigo;
     }
-
     @Override
+    public double getDescuento() {
+        return 0.5;
+    }
+ 
     public String toString() {
         return super.toString()
                 + ", Codigo de cliente: " + codigo;

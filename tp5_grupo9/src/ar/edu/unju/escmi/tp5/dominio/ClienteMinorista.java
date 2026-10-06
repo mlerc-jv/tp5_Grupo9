@@ -26,8 +26,15 @@ public class ClienteMinorista extends Cliente {
     public void setObraSocial(String obraSocial) {
         this.obraSocial = obraSocial;
     }
-
+    
     @Override
+    public double getDescuento() {
+        if (dni != null && "PAMI".equalsIgnoreCase(obraSocial)) {
+            return 0.10;
+        }
+        return 0;
+    }
+    
     public String toString() {
         return super.toString()
                 + ", DNI: " + dni
