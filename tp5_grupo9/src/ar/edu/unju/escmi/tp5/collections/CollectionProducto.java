@@ -24,5 +24,19 @@ public class CollectionProducto {
 		}
 		return false;
 	}
+	public static void precargarProductos() {
+
+	    Producto producto1 = new Producto(1001, "Aceite legitimo girasol 1,5lt", 4899.0, 30);
+	    Producto producto2 = new Producto(1002, "Arroz Primor 1kg", 1099.0, 25);
+	    Producto producto3 = new Producto(1003, "Mayonesa Hellmans 237gr", 1699.39, 0);
+	    Producto producto4 = new Producto(1004, "Sal fina Celusal 500gr", 1262.0, 25);
+	    Producto producto5 = new Producto(1005, "Te La Virginia 20 saq", 2079.0, 0);
+
+	    agregarProducto(producto1);
+	    agregarProducto(producto2);
+	    agregarProducto(producto3);
+	    agregarProducto(producto4);
+	    agregarProducto(producto5);
+	}
 	
 }
